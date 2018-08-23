@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Document default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "1rem",
+    }
+  }
+>
+  <div>
+    <h2>
+      arachnys
+    </h2>
+    <div
+      className="ant-divider ant-divider-horizontal"
+    />
+    <div>
+      <h1>
+        Arachnys
+      </h1>
+      <p>
+        I &lt;3 Arachnys
+      </p>
+    </div>
+    ,
+  </div>
+</div>
+`;
+
+exports[`Storyshots DocumentsList with custom renderItem 1`] = `
+<div
+  style={
+    Object {
+      "padding": "1rem",
+    }
+  }
+>
+  <div
+    className="ant-list css-ll7zjh ant-list-lg ant-list-split ant-list-bordered"
+  >
+    <div>
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-list-item"
+          >
+            <div
+              className="ant-list-item-content ant-list-item-content-single"
+            >
+              <a
+                onClick={[Function]}
+              >
+                arachnys
+              </a>
+            </div>
+          </div>
+          <div
+            className="ant-list-item"
+          >
+            <div
+              className="ant-list-item-content ant-list-item-content-single"
+            >
+              <a
+                onClick={[Function]}
+              >
+                helloworld
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots DocumentsList with default renderItem 1`] = `
+<div
+  style={
+    Object {
+      "padding": "1rem",
+    }
+  }
+>
+  <div
+    className="ant-list css-ll7zjh ant-list-lg ant-list-split ant-list-bordered"
+  >
+    <div>
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-list-item"
+          >
+            <div
+              className="ant-list-item-content ant-list-item-content-single"
+            >
+              <span>
+                arachnys
+              </span>
+            </div>
+          </div>
+          <div
+            className="ant-list-item"
+          >
+            <div
+              className="ant-list-item-content ant-list-item-content-single"
+            >
+              <span>
+                helloworld
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots NewRevisionForm default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "1rem",
+    }
+  }
+>
+  <div>
+    <h2>
+      arachnys
+    </h2>
+    <div
+      className="ant-divider ant-divider-horizontal"
+    />
+    <form
+      className="ant-form ant-form-horizontal"
+      onSubmit={[Function]}
+    >
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <textarea
+              className="ant-input"
+              data-__field={
+                Object {
+                  "name": "data",
+                }
+              }
+              data-__meta={
+                Object {
+                  "initialValue": "Hello! This is the **first** revision.",
+                  "name": "data",
+                  "originalProps": Object {
+                    "autosize": Object {
+                      "maxRows": 20,
+                      "minRows": 5,
+                    },
+                    "prefixCls": "ant-input",
+                  },
+                  "ref": null,
+                  "rules": Array [
+                    Object {
+                      "message": "Please input contents",
+                      "required": true,
+                    },
+                  ],
+                  "trigger": "onChange",
+                  "validate": Array [
+                    Object {
+                      "rules": Array [
+                        Object {
+                          "message": "Please input contents",
+                          "required": true,
+                        },
+                      ],
+                      "trigger": Array [
+                        "onChange",
+                      ],
+                    },
+                  ],
+                  "valuePropName": "value",
+                }
+              }
+              id="data"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              style={Object {}}
+              value="Hello! This is the **first** revision."
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control"
+          >
+            <button
+              className="ant-btn ant-btn-primary"
+              onClick={[Function]}
+              type="submit"
+            >
+              <span>
+                Save
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
